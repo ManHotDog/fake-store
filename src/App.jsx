@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import reactLogo from './assets/react.svg'
+import Logo from './assets/Hornpub.png'
 import './App.css'
 import ShoppingItems from './components/ShoppingItems.jsx'
 
@@ -24,7 +24,7 @@ function App() {
     <>
       <header className="flex justify-between items-center p-4 bg-white shadow-md">
         <div className="flex items-center gap-x-2">
-          <img src={reactLogo} alt="logo" className="w-12 h-12 object-contain" />
+          <img src={Logo} alt="logo" className="w-12 h-12 object-contain" />
             <h1 className="text-xl font-bold">FakeStore</h1>
           </div>
           <div className="relative cursor-pointer mr-4" onClick={() => setShowCart(prev => !prev)}>

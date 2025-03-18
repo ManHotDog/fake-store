@@ -125,7 +125,7 @@ const ShoppingItems = ({ showCartProp, setShowCartProp }) => {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto pl-12 pr-12">
       <ProductFilter 
         categories={categories}
         selectedCategory={selectedCategory}
