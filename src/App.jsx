@@ -25,7 +25,7 @@ function App() {
       <header className="flex justify-between items-center p-4 bg-white shadow-md">
         <div className="flex items-center gap-x-2">
           <img src={Logo} alt="logo" className="w-12 h-12 object-contain" />
-            <h1 className="text-xl font-bold">FakeStore</h1>
+            <h1 className="text-xl font-bold">Hornpub</h1>
           </div>
           <div className="relative cursor-pointer mr-4" onClick={() => setShowCart(prev => !prev)}>
             <i className="fa-solid fa-cart-shopping text-2xl"></i>
@@ -37,7 +37,7 @@ function App() {
           </div>
       </header>
       <div className="text-center p-4">
-        <h1 className="text-2xl font-bold">Fake Store</h1>
+        <h1 className="text-2xl font-bold">Hornpub</h1>
       </div>
       <ShoppingItems showCartProp={showCart} setShowCartProp={setShowCart} />
     </>
